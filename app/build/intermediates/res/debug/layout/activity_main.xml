@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.androidteste3.MainActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parâmetro a ser enviado" />
+
+    <EditText
+        android:id="@+id/txtParametros"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnComParametros"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Navegar - Enviando Parâmetros" />
+
+    <Button
+        android:id="@+id/btnSemParametros"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Navegar - Sem Parâmetros" />
+
+</LinearLayout>
+<!-- From: file:/C:/Users/rafael.liberato/AndroidStudioProjects/ExemploNavegar/app/src/main/res/layout/activity_main.xml -->
