@@ -48,7 +48,7 @@ import android.widget.Toast;
 
 public class Page2 extends Activity {
 
-	//Declaração dos elementos para vinculação	
+	//Declaraï¿½ï¿½o dos elementos para vinculaï¿½ï¿½o	
 	private String txtDados;
 	private TextView txtRecebeDados;
 	@Override
@@ -59,7 +59,7 @@ public class Page2 extends Activity {
 		//Vinculo do objeto txtRecebeDados, com o elemento txtDados presente na VIEW
 		txtRecebeDados = (TextView)findViewById(R.id.txtDados);
 
-		//Pega-se o parâmetro vindo através da INTENT de navegação
+		//Pega-se o parï¿½metro vindo atravï¿½s da INTENT de navegaï¿½ï¿½o
 		Intent intent = getIntent();
 		Bundle params = intent.getExtras();
 
@@ -68,10 +68,10 @@ public class Page2 extends Activity {
 		{
 			txtDados = params.getString("dados");
 			txtRecebeDados.setText(txtDados);
-			Toast.makeText(this, "Parâmetro = "+txtDados, Toast.LENGTH_LONG).show();
+			Toast.makeText(this, "Parï¿½metro = "+txtDados, Toast.LENGTH_LONG).show();
 		}
 		else {
-			txtDados = "Sem Parâmetros na Página" ;
+			txtDados = "Sem Parï¿½metros na Pï¿½gina" ;
 			txtRecebeDados.setText(txtDados);
 			Toast.makeText(this,txtDados,Toast.LENGTH_LONG).show();
 		}
